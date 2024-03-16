@@ -22,6 +22,8 @@ p{
     padding-right: 50px;
     padding-bottom: 20px;
     padding-top: 20px;
+    text-shadow: 5px 5px 5px #002C54;
+    
 }
 
 a{
@@ -38,7 +40,7 @@ a{
 li a:hover{
     color: #001626;
     text-decoration: underline;
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.2s;
 }
 
 .container{
@@ -82,6 +84,7 @@ li a:hover{
     display: flex;
     align-items: center;
     width: 100px;
+    
 }
 
 .home-title p a:hover{
@@ -126,11 +129,12 @@ li a:hover{
 }
 
 .container h3{
-    background-color: #002C54;
+    background-color: #1D60DE;
     border-radius: 10px;
     font-size: 60px;
     width: auto;
     padding: 0 100px;
+    box-shadow: 10px 5px 5px #002C54;
 }
 
 .container img{
